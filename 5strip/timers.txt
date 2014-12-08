@@ -1,0 +1,67 @@
+pa8		tim1ch1
+pb14	tim1ch2n
+pb15	tim1ch3n
+pa11	tim1ch4
+
+pa0		tim2ch1
+pa1		tim2ch2
+pa2		tim2ch3
+pa3		tim2ch4
+
+pa6		tim3ch1
+pa7		tim3ch2
+pb0		tim3ch3
+pb1		tim3ch4
+
+tim15ch1, tim15ch2 krockar med tim2ch3, tim2ch4
+tim15ch1rm, tim15c2rm krockar med tim1ch2n, tim1ch3n
+
+Flytta tim2ch3, tim2ch4 → pb10, pb11
+
+	pa8		tim1ch1		r1
+	pb14	tim1ch2n	g1
+	pb15	tim1ch3n	b1
+	pa11	tim1ch4		r5
+
+	pa0		tim2ch1		r2
+	pa1		tim2ch2		g2
+	pb10	tim2ch3rm	b2
+	pb11	tim2ch4rm	g5
+
+	pa6		tim3ch1		r3
+	pa7		tim3ch2		g3
+	pb0		tim3ch3		b3
+	pb1		tim3ch4		b5
+
+	pa2		tim15ch1	r4
+	pa3		tim15ch2	g4
+
+	pb8		tim16ch1	b4
+
+	Denna lösningen verkar OK
+
+
+
+
+
+-- Mapping --
+pa8		tim1ch1		r1
+pb14	tim1ch2n	g1
+pb15	tim1ch3n	b1
+pa11	tim1ch4		r5
+
+pa0		tim2ch1		r2
+pa1		tim2ch2		g2
+pb10	tim2ch3rm	b2
+pb11	tim2ch4rm	g5
+
+pa6		tim3ch1		r3
+pa7		tim3ch2		g3
+pb0		tim3ch3		b3
+pb1		tim3ch4		b5
+
+pa2		tim15ch1	r4
+pa3		tim15ch2	g4
+
+pb8		tim16ch1	b4
+w

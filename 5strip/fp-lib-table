@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name tblock)(type KiCad)(uri ${KIPRJMOD}/tb2.pretty)(options "")(descr ""))
+  (lib (name capfixed)(type KiCad)(uri ${KIPRJMOD}/capfixed.pretty)(options "")(descr ""))
+)
